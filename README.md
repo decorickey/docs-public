@@ -10,6 +10,8 @@
 
 * impact（インパクト）もeffort（労力）も小さい象限に時間を使いすぎない
 
+## [ソフトスキルとハードスキル](https://directscout.recruit.co.jp/contents/article/17603/)
+
 ## あらゆる仕事で必要とされる4分野([Four Disciplines](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech))
 
 ### 技術スキル
@@ -27,4 +29,3 @@
 ### ピープルマネジメント
 
 * 集団をチームに変え、メンバーのスキルとキャリアを高め、指導し、メンバーが抱える問題に対処する
-
