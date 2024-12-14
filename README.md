@@ -4,11 +4,11 @@
 
 ### [時間管理マトリクス](https://www.franklinplanner.jp/learning/planner/04.html)
 
-* 緊急度は低いが重要度が高い象限に時間を使う
+* 緊急度は低いが重要度が高い象限に時間を使うこと
 
 ### [Impact Mapping](https://www.intercom.com/blog/first-rule-prioritization-no-snacking/)
 
-* impact（インパクト）もeffort（労力）も小さい象限に時間を使いすぎない
+* impact（影響）もeffort（労力）も小さい象限に時間を使いすぎないこと
 
 ## [ソフトスキルとハードスキル](https://directscout.recruit.co.jp/contents/article/17603/)
 
