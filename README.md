@@ -1,16 +1,16 @@
 # docs-public
 
+## [ソフトスキルとハードスキル](https://directscout.recruit.co.jp/contents/article/17603/)
+
 ## 時間管理に関する有名な四象限
 
-### [時間管理マトリクス](https://www.franklinplanner.jp/learning/planner/04.html)
+### [アイゼンハワーマトリクス](https://www.franklinplanner.jp/learning/planner/04.html)
 
 緊急度は低いが重要度が高い象限に時間を使うこと。
 
 ### [Impact Mapping](https://www.intercom.com/blog/first-rule-prioritization-no-snacking/)
 
 impact（影響）もeffort（労力）も小さい象限に時間を使いすぎないこと。
-
-## [ソフトスキルとハードスキル](https://directscout.recruit.co.jp/contents/article/17603/)
 
 ## あらゆる仕事で必要とされる4分野([Four Disciplines](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech))
 
