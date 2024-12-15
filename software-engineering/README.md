@@ -2,8 +2,7 @@
 
 ## リンク集
 
-* ミノ駆動
-  * [「良いコードとは何か」で消耗するのはもうやめよう](https://developersblog.dmm.com/entry/2024/11/01/110000)
+* [「良いコードとは何か」で消耗するのはもうやめよう](https://developersblog.dmm.com/entry/2024/11/01/110000)
 
 ## OSSのBIツール一覧
 
