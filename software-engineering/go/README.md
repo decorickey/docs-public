@@ -26,3 +26,8 @@
 |-|-|-|
 |install|ホストマシンにパッケージをインストールする| |
 |get|go.modの依存関係を更新する| |
+
+## その他
+
+* [Google Style Guide](https://google.github.io/styleguide/go/)
+* [Goのruntimeソースコードは仕様ですと言い切れるほどコメントが充実している](https://x.com/yuroyoro/status/1844317697275986225)
