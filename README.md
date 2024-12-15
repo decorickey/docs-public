@@ -14,7 +14,7 @@ impact（影響）もeffort（労力）も小さい象限に時間を使いす�
 
 ## あらゆる仕事で必要とされる4分野([Four Disciplines](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech))
 
-### 技術スキル
+### テクニカルスキル
 
 * コーディング・コンテンツ制作・料理などその職務における固有の技術
 
