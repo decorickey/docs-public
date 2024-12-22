@@ -7,9 +7,10 @@
 ### [カッツモデル](https://www.hrbrain.jp/media/human-resources-management/katz-model)
 
 エンジニアの場合
+
 <https://speakerdeck.com/tenshoku_draft/enziniaren-sheng-nokuo-zhang-xing-wogao-meru-tan-suo-xing-kiyariashe-ji-noti-an?slide=15>
 
-### ([あらゆる仕事で必要とされる4分野(Four Disciplines)](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech))
+### [あらゆる仕事で必要とされる4分野(Four Disciplines)](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech)
 
 #### テクニカルスキル
 
