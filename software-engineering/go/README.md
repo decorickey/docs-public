@@ -6,6 +6,12 @@
 
 public/privateという表現はなく、識別子をパッケージの外にエクスポートするか否か
 
+### [カンマOK慣用句（comma ok idiom）](https://go.dev/doc/effective_go#maps)
+
+### [mapのイテレーションは順序不定](https://go.dev/ref/spec#For_statements)
+
+> The iteration order over maps is not specified and is not guaranteed to be the same from one iteration to the next.
+
 ### [コメント](https://tip.golang.org/doc/comment)
 
 エクスポートされた識別子はすべてコメントが必要である
@@ -17,6 +23,10 @@ public/privateという表現はなく、識別子をパッケージの外にエ
 ### [パッケージのバージョニング](https://cs.opensource.google/go/go/+/master:src/math/rand/v2/rand.go)
 
 同一パッケージ名でバージョニング番号を付与したディレクトリ名でパッケージを新しく作る
+
+### [internal package](https://go.dev/doc/go1.4#internalpackages)
+
+親または兄弟のパッケージからしかインポートできない特殊なパッケージ
 
 ### [セキュリティ](https://go.dev/doc/security/)
 
