@@ -1,6 +1,30 @@
 # docs-public
 
-## [ソフトスキルとハードスキル](https://directscout.recruit.co.jp/contents/article/17603/)
+## キャリア
+
+### [ソフトスキルとハードスキル](https://directscout.recruit.co.jp/contents/article/17603/)
+
+### [カッツモデル](https://www.hrbrain.jp/media/human-resources-management/katz-model)
+
+[エンジニアの場合](https://speakerdeck.com/tenshoku_draft/enziniaren-sheng-nokuo-zhang-xing-wogao-meru-tan-suo-xing-kiyariashe-ji-noti-an?slide=15)
+
+### あらゆる仕事で必要とされる4分野([Four Disciplines](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech))
+
+#### テクニカルスキル
+
+* コーディング・コンテンツ制作・料理などその職務における固有の技術
+
+#### プロダクトマネジメント
+
+* 何をすべきか・なぜすべきかを決める
+
+#### プロジェクトマネジメント
+
+* 目標を達成するための実際の作業や混乱を収め、タスクを追跡し、ブロッカーに気づいて取り除く
+
+#### ピープルマネジメント
+
+* 集団をチームに変え、メンバーのスキルとキャリアを高め、指導し、メンバーが抱える問題に対処する
 
 ## 有名な四象限・マトリクス
 
@@ -15,24 +39,6 @@ impact（影響）もeffort（労力）も小さい象限に時間を使いす�
 ### [BCGマトリクス](https://repro.io/contents/how-to-use-the-bcg-matrix-model/)
 
 ビジネス戦略に関するもの。
-
-## あらゆる仕事で必要とされる4分野([Four Disciplines](https://www.alphalist.com/blog/ic-career-track-job-titles-and-roles-in-tech))
-
-### テクニカルスキル
-
-* コーディング・コンテンツ制作・料理などその職務における固有の技術
-
-### プロダクトマネジメント
-
-* 何をすべきか・なぜすべきかを決める
-
-### プロジェクトマネジメント
-
-* 目標を達成するための実際の作業や混乱を収め、タスクを追跡し、ブロッカーに気づいて取り除く
-
-### ピープルマネジメント
-
-* 集団をチームに変え、メンバーのスキルとキャリアを高め、指導し、メンバーが抱える問題に対処する
 
 ## 具体と抽象
 
