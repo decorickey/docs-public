@@ -1,33 +1,67 @@
 # Go
 
-## 公式リンク集
+## 公式集
 
-### [プロジェクト構成](https://go.dev/doc/modules/layout)
+### [識別子のエクスポート](https://go.dev/ref/spec#Exported_identifiers)
 
-* [GitHub](https://github.com/golang-standards/project-layout/blob/master/README_ja.md)
+public/privateという表現はなく、識別子をパッケージの外にエクスポートするか否か
+
+### [コメント](https://tip.golang.org/doc/comment)
+
+エクスポートされた識別子はすべてコメントが必要である
+
+> Every exported (capitalized) name should have a doc comment.
+
+### [モジュールのバージョン](https://go.dev/doc/modules/version-numbers)
+
+### [パッケージのバージョニング](https://cs.opensource.google/go/go/+/master:src/math/rand/v2/rand.go)
+
+同一パッケージ名でバージョニング番号を付与したディレクトリ名でパッケージを新しく作る
+
+### [セキュリティ](https://go.dev/doc/security/)
+
+公式が脆弱性の一覧やベストプラクティス、ツールなどを提供してくれている
+
+### [プロジェクト構成](https://go.dev/doc/modules/layout) [(GitHub)](https://github.com/golang-standards/project-layout/blob/master/README_ja.md)
+
+### [Table Driven Tests](https://go.dev/wiki/TableDrivenTests)
 
 ### [Testable Examples](https://go.dev/blog/examples)
 
-* ドキュメントにサンプルコードを示しつつ実行結果の確認ができる
+ドキュメントにサンプルコードを示しつつ実行結果の確認ができる
 
 ## パッケージ集
 
 ### [embed](https://pkg.go.dev/embed)
 
-* ファイルを読み込んで利用する（バイナリに組み込む）
+ファイルを読み込んで利用する（バイナリに組み込む）
 
 ### [fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify)
 
-* ファイルの変更を検知する
+ファイルの変更を検知する
+
+## リンク集
+
+* [Google Style Guide](https://google.github.io/styleguide/go/)
+* [Goのruntimeソースコードは仕様ですと言い切れるほどコメントが充実している](https://x.com/yuroyoro/status/1844317697275986225)
 
 ## コマンド
+
+* `./...`はgoコマンド特有のものですべてのサブディレクトリとファイルを対象にする
+
+### コマンド集
 
 |コマンド|概要|補足|
 |-|-|-|
 |install|ホストマシンにパッケージをインストールする| |
 |get|go.modの依存関係を更新する| |
 
-## その他
+### コンパイルが通るか試したい
 
-* [Google Style Guide](https://google.github.io/styleguide/go/)
-* [Goのruntimeソースコードは仕様ですと言い切れるほどコメントが充実している](https://x.com/yuroyoro/status/1844317697275986225)
+`go build -o /hoge/fuga`
+
+### `go.mod`のgoディレクティブをアップデートしたい
+
+`go get go@patch`
+
+`go mod tidy -go=1.x.y`
