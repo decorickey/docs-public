@@ -12,9 +12,7 @@ public/privateという表現はなく、識別子をパッケージの外にエ
 
 > The iteration order over maps is not specified and is not guaranteed to be the same from one iteration to the next.
 
-### [コメント](https://tip.golang.org/doc/comment)
-
-エクスポートされた識別子はすべてコメントが必要である
+### [エクスポートされた識別子はすべてコメントが必要](https://tip.golang.org/doc/comment)
 
 > Every exported (capitalized) name should have a doc comment.
 
