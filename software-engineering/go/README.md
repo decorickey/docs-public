@@ -1,6 +1,6 @@
 # Go
 
-## 公式集
+## 公式
 
 ### [識別子のエクスポート](https://go.dev/ref/spec#Exported_identifiers)
 
@@ -38,7 +38,7 @@ public/privateという表現はなく、識別子をパッケージの外にエ
 
 ドキュメントにサンプルコードを示しつつ実行結果の確認ができる
 
-## パッケージ集
+## パッケージ
 
 ### [embed](https://pkg.go.dev/embed)
 
@@ -48,7 +48,7 @@ public/privateという表現はなく、識別子をパッケージの外にエ
 
 ファイルの変更を検知する
 
-## リンク集
+## リンク
 
 * [Google Style Guide](https://google.github.io/styleguide/go/)
 * [Goのruntimeソースコードは仕様ですと言い切れるほどコメントが充実している](https://x.com/yuroyoro/status/1844317697275986225)
@@ -73,3 +73,46 @@ public/privateという表現はなく、識別子をパッケージの外にエ
 `go get go@patch`
 
 `go mod tidy -go=1.x.y`
+
+## ノウハウ
+
+### ゼロ値
+
+* ポインタ型またはポインタで実装されている型は`nil`になる
+* 構造体の各フィールドはその型のゼロ値になる
+* sliceとmapはmakeで初期化すればnilにならない
+
+### 特殊な型と挙動
+
+#### rune
+
+* int32
+* 符号あり32bit(4byte)の整数
+* コードポイント
+
+#### byte
+
+* uint8
+* 符号なし8bit(1byte)の整数
+
+#### []byte
+
+* string型の実態
+* string型のindexやlenはbyteで計算されている
+* 2byte以上の文字を含む文字列は想定した挙動にならないので注意
+* len([]byte)とlen(string)は一致する
+* string型と相互変換できる
+
+#### []rune
+
+* len([]rune)とlen(string)は一致しない
+* string型と相互変換できる
+
+#### string型のfor-range
+
+* rune型でイテレーションする
+* indexはbyte型のため値が飛び飛びになるので注意
+
+### defer
+
+* Closureを活用して関数内の変数を活用できる

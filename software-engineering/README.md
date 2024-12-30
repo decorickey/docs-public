@@ -1,9 +1,5 @@
 # ソフトウェアエンジニアリング
 
-## リンク集
-
-* [「良いコードとは何か」で消耗するのはもうやめよう](https://developersblog.dmm.com/entry/2024/11/01/110000)
-
 ## 仕様と設計
 
 * 仕様とは「何を作るか」つまりwhatの話
@@ -11,9 +7,9 @@
 
 ## OSSのBIツール
 
-- Re:dash
-- Kibana
-- Grafana
+* Re:dash
+* Kibana
+* Grafana
 
 ## [ADR(Architecture Decision Record)](https://docs.wantedly.dev/fields/dev-process/adr)
 
@@ -30,3 +26,12 @@
 条件と動作を整理した表
 
 ## [gRPCとREST](https://aws.amazon.com/jp/compare/the-difference-between-grpc-and-rest/)
+
+## [オブジェクト指向UI vs タスク指向](https://gihyo.jp/book/2020/978-4-297-11351-3)
+
+|オブジェクト指向|タスク指向|
+|-|-|
+|GUI|CUI|
+|名刺→動詞|動詞→名刺|
+|モードレス（モードがない）|モーダル（モードがある）|
+|日常の動作と同じ自然な流れ|日常の動作と異なる不自然な流れ|
