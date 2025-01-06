@@ -3,6 +3,7 @@
 ## リンク集
 
 * [「良いコードとは何か」で消耗するのはもうやめよう](https://developersblog.dmm.com/entry/2024/11/01/110000)
+* [生焼けオブジェクト](https://krkadev.blogspot.com/2010/05/half-baked-objects.html)
 
 ## 格言
 
