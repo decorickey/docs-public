@@ -4,6 +4,7 @@
 
 * [「良いコードとは何か」で消耗するのはもうやめよう](https://developersblog.dmm.com/entry/2024/11/01/110000)
 * [生焼けオブジェクト](https://krkadev.blogspot.com/2010/05/half-baked-objects.html)
+* [貧血ドメインモデル](https://www.martinfowler.com/bliki/AnemicDomainModel.html)
 
 ## 格言
 
